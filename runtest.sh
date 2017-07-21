@@ -32,7 +32,7 @@ echo ""
 echo "***** 3/3 'curl' test *****************************"
 echo ""
 
-time curl https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7_x86_64.dmg -o $TMP/vagrant.dmg
+time curl https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7_x86_64.dmg -o ./vagrant.dmg
 
 rm -rf $TMP
 echo ""
